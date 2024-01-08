@@ -8,7 +8,7 @@ header {
   height: 600px;
   text-align: center;
   color: #fff;
-  background-image: url("assets/bannerimage.png");
+  background-image: url("../assets/bannerimage.png");
   background-repeat: no-repeat;
   margin: 50px auto 0px;
 }
@@ -83,7 +83,7 @@ main > .sec1 {
   width: 1320px;
   height: 600px;
   display: flex;
-  background-image: url("assets/vectorrr.png");
+  background-image: url("../assets/vectorrr.png");
   background-repeat: no-repeat;
   justify-content: space-between;
 }
@@ -336,7 +336,7 @@ main > .sec2 {
   width: 1320px;
   height: 733px;
   display: flex;
-  background-image: url("assets/rectangle2.png");
+  background-image: url("../assets/rectangle2.png");
   background-position: bottom;
   background-repeat: no-repeat;
   text-align: center;
