@@ -427,23 +427,33 @@ main > .sec2 {
   background-repeat: no-repeat;
 }
 
-.sec7imgset {
+.sec7imgset{
   margin: 0px;
   padding: 0px;
 }
 
-.imgsec7up {
-  padding-left: 0px;
-  padding-right: 24px;
+.imgsec7up{
+  padding-left: 12px;
+  padding-right: 12px;
   height: 424px;
+  opacity: 0.5; 
+  transition: all 0.3s ease; 
 }
 
+
 .imgsec7dw {
-  padding-left: 0px;
-  padding-right: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
   padding-top: 24px;
   height: 424px;
+  opacity: 0.5; 
+  transition: all 0.3s ease; 
 }
+
+.imgsec7up,.imgsec7dw:hover {
+  opacity: 1;
+}
+
 
 /* Section - 08 Content + BG */
 .sec8 {
