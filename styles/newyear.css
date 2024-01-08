@@ -450,7 +450,7 @@ main > .sec2 {
   transition: all 0.3s ease; 
 }
 
-.imgsec7up,.imgsec7dw:hover {
+.imgsec7up:hover,.imgsec7dw:hover {
   opacity: 1;
 }
 
