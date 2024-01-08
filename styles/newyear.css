@@ -85,7 +85,7 @@ main > .sec1 {
   width: 1320px;
   height: 600px;
   display: flex;
-  background-image: linear-gradient(#070211, #07021100),
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
     url("../assets/vectorrr.png");
   border-radius: 15px;
   background-repeat: no-repeat;
@@ -553,7 +553,12 @@ footer {
   font-weight: 500;
   line-height: 40px;
 }
-.cntct {
+
+.contct{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
   color: #fff;
   font-family: Inter;
   font-size: 24px;
@@ -562,7 +567,15 @@ footer {
   line-height: 40px;
 }
 
-.web {
+.contct > img {
+  margin-right: 16px;
+}
+
+.webc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
   color: #fff;
   font-family: Inter;
   font-size: 24px;
@@ -570,6 +583,12 @@ footer {
   font-weight: 500;
   line-height: 40px;
 }
+
+.webc > img {
+  margin-right: 16px;
+}
+
+
 
 .footnav {
   display: flex;
@@ -579,7 +598,7 @@ footer {
   padding: 0px 140px 0px 140px;
 }
 
-.footnav > div > img {
+.footnav > div  img {
   width: 64px;
   height: 64px;
   flex-shrink: 0;
