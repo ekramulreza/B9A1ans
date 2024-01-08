@@ -8,7 +8,9 @@ header {
   height: 600px;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/bannerimage.png");
+  background-image: linear-gradient(45deg, #070211, #07021100),
+    url("../assets/bannerimage.png");
+  border-radius: 15px;
   background-repeat: no-repeat;
   margin: 50px auto 0px;
 }
@@ -83,7 +85,9 @@ main > .sec1 {
   width: 1320px;
   height: 600px;
   display: flex;
-  background-image: url("../assets/vectorrr.png");
+  background-image: linear-gradient(#070211, #07021100),
+    url("../assets/vectorrr.png");
+  border-radius: 15px;
   background-repeat: no-repeat;
   justify-content: space-between;
 }
@@ -428,6 +432,19 @@ main > .sec2 {
   padding: 0px;
 }
 
+.imgsec7up {
+  padding-left: 0px;
+  padding-right: 24px;
+  height: 424px;
+}
+
+.imgsec7dw {
+  padding-left: 0px;
+  padding-right: 24px;
+  padding-top: 24px;
+  height: 424px;
+}
+
 /* Section - 08 Content + BG */
 .sec8 {
   margin: 120px auto 0px;
@@ -475,7 +492,7 @@ form {
   padding: 48px 0 0 0;
 }
 .subform input {
-  width: 648px;
+  width: 438px;
   height: 70px;
   flex-shrink: 0;
   border-radius: 50px 0 0 50px;
